@@ -1,4 +1,9 @@
 /* common shared css  */
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Lato', sans-serif;
     font-family: 'Roboto', sans-serif;
@@ -23,7 +28,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 200px;
+    margin: 0 100px;
 }
 
 .nav-title {
@@ -50,16 +55,95 @@ nav a {
 
 
 /* header related styles */
-.header-style{
+.header-style {
     background-color: #FFF8F3;
+    background-image: url(./assets/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 600px;
 }
 
-.banner{
+
+.banner {
     padding: 30px 30ps 30px 150px;
+
+    margin: 0 100px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
-.profile-pic{
-    height: 400px;
+.banner-description {
+    margin-bottom: 20px;
+}
+
+.btn-outline {
+    background-color: white;
+    color: #FD6E0A;
+    outline: auto;
+    margin-left: 20px;
+}
+
+.profile-pic {
+    width: 450px;
+}
+
+
+
+.banner-greeting {
+    font-size: 35px;
+    color: #474747;
+}
+
+.banner-title {
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+/* main section start */
+/* about section */
+
+.about {
+    margin: 50px auto;
+
+    text-align: center;
+    border-radius: 10px;
+    background: #FFF8F3;
+    padding: 100px;
+    width: 800px;
+}
+.section-title{
+    font-size: 35px;
+    margin-bottom: 20;
+    text-align: center;
+}
+.section-description{
+    color:  #757575;
+text-align: center;
+font-size: 18px;
+}
+.about-info-container{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+
+.about-info{
+    text-align: center;
+}
+
+.info-title{
+    color: #757575;
+    font-size: 20px;
+}
+.info-description{
+    color: #474747;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#what-i-do-description{
+    text-align: center;
+    padding: 30px 280px;
 }
