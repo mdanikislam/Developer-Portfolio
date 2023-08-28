@@ -202,3 +202,29 @@ hr{
     margin-bottom: 20px;
 }
 /* a summary of my resume end  */
+
+
+/* footer section start  */
+.download-cv{
+  text-align: center;  
+  margin: 50px 0;
+}
+.footer-area{
+    background-color: #FFF8F3;
+    display: flex;
+    padding: 60px 150px 40px 150px;
+}
+
+.footers-title{
+    margin-bottom: 25px;
+}
+.lets-message input,textarea{
+    display: block;
+    margin-bottom: 25px;
+    border: none;
+    padding: 10px 20px;
+}
+
+.lets-connect-description{
+    margin-bottom: 30px ;
+}
